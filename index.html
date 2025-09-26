@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,40 +25,41 @@
     .nav{display:flex; align-items:center; justify-content:space-between; padding:14px 0}
     .brand{display:flex; align-items:center; gap:10px; text-decoration:none}
     .brand b{font-size:18px; letter-spacing:.2px}
-    .badge{font:600 11px/1 Inter,system-ui; padding:6px 10px; border:1px solid #ffffff20; border-radius:999px; color:#d7e3ff; background:#1a1f2a}.btn{display:inline-flex; align-items:center; justify-content:center; gap:10px; padding:12px 16px; border-radius:12px; text-decoration:none; font-weight:700; letter-spacing:.2px; background:linear-gradient(90deg,var(--brand), #7aa0ff); color:white; box-shadow:0 10px 24px rgba(79,124,255,.22); transition:transform .06s ease, filter .2s ease}
-.btn:hover{filter:brightness(1.05)}
-.btn:active{transform:translateY(1px)}
+    .badge{font:600 11px/1 Inter,system-ui; padding:6px 10px; border:1px solid #ffffff20; border-radius:999px; color:#d7e3ff; background:#1a1f2a}
 
-.hero{display:grid; grid-template-columns:1.05fr .95fr; gap:28px; align-items:center; padding:42px 0 22px}
-.hero h1{font-size: clamp(28px, 5vw, 52px); line-height:1.04; margin:0 0 14px}
-.hero p{color:var(--muted); margin:0 0 18px; font-size: clamp(14px, 2.4vw, 18px)}
-.hero-cta{display:flex; gap:12px; flex-wrap:wrap}
-.hero small{display:inline-block; color:#b7c2d9; opacity:.9}
+    .btn{display:inline-flex; align-items:center; justify-content:center; gap:10px; padding:12px 16px; border-radius:12px; text-decoration:none; font-weight:700; letter-spacing:.2px; background:linear-gradient(90deg,var(--brand), #7aa0ff); color:white; box-shadow:0 10px 24px rgba(79,124,255,.22); transition:transform .06s ease, filter .2s ease}
+    .btn:hover{filter:brightness(1.05)}
+    .btn:active{transform:translateY(1px)}
 
-.card{background:linear-gradient(180deg,#151a22,#121620); border:1px solid #ffffff10; border-radius:18px; padding:18px}
-.grid-3{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
+    .hero{display:grid; grid-template-columns:1.05fr .95fr; gap:28px; align-items:center; padding:42px 0 22px}
+    .hero h1{font-size: clamp(28px, 5vw, 52px); line-height:1.04; margin:0 0 14px}
+    .hero p{color:var(--muted); margin:0 0 18px; font-size: clamp(14px, 2.4vw, 18px)}
+    .hero-cta{display:flex; gap:12px; flex-wrap:wrap}
+    .hero small{display:inline-block; color:#b7c2d9; opacity:.9}
 
-.section{padding:32px 0}
-.section h2{font-size: clamp(22px, 3.8vw, 30px); margin:0 0 14px}
-.section p{color:var(--muted); margin:0 0 10px}
+    .card{background:linear-gradient(180deg,#151a22,#121620); border:1px solid #ffffff10; border-radius:18px; padding:18px}
+    .grid-3{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
 
-.pricing{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
-.price .tag{font:700 12px/1 Inter; text-transform:uppercase; letter-spacing:.12em; color:#9db4ff}
-.price h3{margin:8px 0 6px}
+    .section{padding:32px 0}
+    .section h2{font-size: clamp(22px, 3.8vw, 30px); margin:0 0 14px}
+    .section p{color:var(--muted); margin:0 0 10px}
 
-.faq details{background:#131722; border:1px solid #ffffff10; border-radius:14px; padding:14px 16px}
-.faq details+details{margin-top:10px}
-.faq summary{cursor:pointer; font-weight:600}
-.faq p{color:#b5bfd3; margin:8px 0 0}
+    .pricing{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
+    .price .tag{font:700 12px/1 Inter; text-transform:uppercase; letter-spacing:.12em; color:#9db4ff}
+    .price h3{margin:8px 0 6px}
 
-footer{border-top:1px solid #ffffff12; color:#94a0b5; padding:24px 0 40px}
+    .faq details{background:#131722; border:1px solid #ffffff10; border-radius:14px; padding:14px 16px}
+    .faq details+details{margin-top:10px}
+    .faq summary{cursor:pointer; font-weight:600}
+    .faq p{color:#b5bfd3; margin:8px 0 0}
 
-/* Mobile */
-@media (max-width:860px){
-  .hero{grid-template-columns:1fr; padding:24px 0 10px}
-  .grid-3, .pricing{grid-template-columns:1fr}
-}
+    footer{border-top:1px solid #ffffff12; color:#94a0b5; padding:24px 0 40px}
 
+    /* Mobile */
+    @media (max-width:860px){
+      .hero{grid-template-columns:1fr; padding:24px 0 10px}
+      .grid-3, .pricing{grid-template-columns:1fr}
+    }
   </style>
 </head>
 <body>
@@ -80,7 +82,9 @@ footer{border-top:1px solid #ffffff12; color:#94a0b5; padding:24px 0 40px}
       </a>
       <a class="badge" href="#pricing">Teste de 15 min grátis</a>
     </div>
-  </header>  <main class="container">
+  </header>
+
+  <main class="container">
     <section class="hero">
       <div>
         <div class="badge" style="margin-bottom:10px">Aulas ao vivo • Conversação</div>
@@ -95,98 +99,104 @@ footer{border-top:1px solid #ffffff12; color:#94a0b5; padding:24px 0 40px}
           <svg width="92" height="18" viewBox="0 0 92 18" aria-hidden="true"><rect width="92" height="18" rx="6" fill="#111522"/><text x="8" y="13" font-size="10" fill="#95a4c7" font-family="Inter,Arial">+1.200 aulas concluídas</text></svg>
           <svg width="110" height="18" viewBox="0 0 110 18" aria-hidden="true"><rect width="110" height="18" rx="6" fill="#111522"/><text x="8" y="13" font-size="10" fill="#95a4c7" font-family="Inter,Arial">Nota média 4.9 ★★★★★</text></svg>
         </div>
-      </div><!-- "Imagem" do herói: ilustração SVG -->
-  <div class="card" aria-hidden="true">
-    <svg viewBox="0 0 560 380" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aula online">
-      <defs>
-        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stop-color="#1a2030"/>
-          <stop offset="1" stop-color="#121722"/>
-        </linearGradient>
-        <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stop-color="#4f7cff"/>
-          <stop offset="1" stop-color="#5eead4"/>
-        </linearGradient>
-      </defs>
-      <rect x="0" y="0" width="560" height="380" rx="18" fill="url(#bg)"/>
-      <rect x="30" y="40" width="500" height="300" rx="12" fill="#0f1320" stroke="#293146"/>
-      <rect x="45" y="60" width="220" height="120" rx="10" fill="#11182a" stroke="#2d3750"/>
-      <circle cx="115" cy="120" r="38" fill="#182034" stroke="#2c3750"/>
-      <path d="M95 130c10-15 30-15 40 0" stroke="#4f7cff" stroke-width="4" fill="none"/>
-      <rect x="285" y="60" width="225" height="40" rx="8" fill="#11182a" stroke="#2d3750"/>
-      <rect x="285" y="110" width="225" height="70" rx="8" fill="#11182a" stroke="#2d3750"/>
-      <rect x="45" y="200" width="465" height="30" rx="8" fill="#11182a" stroke="#2d3750"/>
-      <rect x="45" y="240" width="465" height="30" rx="8" fill="#11182a" stroke="#2d3750"/>
-      <rect x="45" y="280" width="220" height="40" rx="10" fill="url(#glow)"/>
-      <text x="62" y="305" font-size="16" font-family="Inter, Arial" fill="#0b1220" font-weight="700">Entrar na aula</text>
-    </svg>
-  </div>
-</section>
+      </div>
 
-<section class="section" id="benefits">
-  <h2>Por que a FluentX?</h2>
-  <div class="grid-3">
-    <div class="card">
-      <h3>Conversação real</h3>
-      <p>Você fala desde a primeira aula. Material exclusivo e simulações de situações reais.</p>
-    </div>
-    <div class="card">
-      <h3>Plano sob medida</h3>
-      <p>Roadmap de 90 dias com metas semanais, tarefas rápidas e feedback individual.</p>
-    </div>
-    <div class="card">
-      <h3>Ao vivo e gravado</h3>
-      <p>Encontros online + gravações para revisar quando quiser. Suporte via WhatsApp.</p>
-    </div>
-  </div>
-</section>
+      <!-- "Imagem" do herói: ilustração SVG -->
+      <div class="card" aria-hidden="true">
+        <svg viewBox="0 0 560 380" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aula online">
+          <defs>
+            <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#1a2030"/>
+              <stop offset="1" stop-color="#121722"/>
+            </linearGradient>
+            <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#4f7cff"/>
+              <stop offset="1" stop-color="#5eead4"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="560" height="380" rx="18" fill="url(#bg)"/>
+          <rect x="30" y="40" width="500" height="300" rx="12" fill="#0f1320" stroke="#293146"/>
+          <rect x="45" y="60" width="220" height="120" rx="10" fill="#11182a" stroke="#2d3750"/>
+          <circle cx="115" cy="120" r="38" fill="#182034" stroke="#2c3750"/>
+          <path d="M95 130c10-15 30-15 40 0" stroke="#4f7cff" stroke-width="4" fill="none"/>
+          <rect x="285" y="60" width="225" height="40" rx="8" fill="#11182a" stroke="#2d3750"/>
+          <rect x="285" y="110" width="225" height="70" rx="8" fill="#11182a" stroke="#2d3750"/>
+          <rect x="45" y="200" width="465" height="30" rx="8" fill="#11182a" stroke="#2d3750"/>
+          <rect x="45" y="240" width="465" height="30" rx="8" fill="#11182a" stroke="#2d3750"/>
+          <rect x="45" y="280" width="220" height="40" rx="10" fill="url(#glow)"/>
+          <text x="62" y="305" font-size="16" font-family="Inter, Arial" fill="#0b1220" font-weight="700">Entrar na aula</text>
+        </svg>
+      </div>
+    </section>
 
-<section class="section" id="pricing">
-  <h2>Planos simples</h2>
-  <div class="pricing">
-    <div class="card price">
-      <span class="tag">Start</span>
-      <h3>R$79/semana</h3>
-      <p>1 encontro/sem • Checklist semanal • Suporte básico</p>
-      <a class="btn" href="https://wa.me/5500000000000" target="_blank" rel="noopener">Começar</a>
-    </div>
-    <div class="card price" style="outline:var(--ring)">
-      <span class="tag">Mais popular</span>
-      <h3>R$129/semana</h3>
-      <p>2 encontros/sem • Feedback detalhado • Suporte prioritário</p>
-      <a class="btn" href="https://wa.me/5500000000000" target="_blank" rel="noopener">Quero este</a>
-    </div>
-    <div class="card price">
-      <span class="tag">Intensivo</span>
-      <h3>R$199/semana</h3>
-      <p>3 encontros/sem • Preparação para provas/entrevistas</p>
-      <a class="btn" href="https://wa.me/5500000000000" target="_blank" rel="noopener">Aplicar</a>
-    </div>
-  </div>
-</section>
+    <section class="section" id="benefits">
+      <h2>Por que a FluentX?</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Conversação real</h3>
+          <p>Você fala desde a primeira aula. Material exclusivo e simulações de situações reais.</p>
+        </div>
+        <div class="card">
+          <h3>Plano sob medida</h3>
+          <p>Roadmap de 90 dias com metas semanais, tarefas rápidas e feedback individual.</p>
+        </div>
+        <div class="card">
+          <h3>Ao vivo e gravado</h3>
+          <p>Encontros online + gravações para revisar quando quiser. Suporte via WhatsApp.</p>
+        </div>
+      </div>
+    </section>
 
-<section class="section faq" id="faq">
-  <h2>Dúvidas frequentes</h2>
-  <details>
-    <summary>Como funciona o teste grátis?</summary>
-    <p>Você agenda 15 minutos para avaliar nível, objetivos e calendário. Se curtir, seguimos com um plano.</p>
-  </details>
-  <details>
-    <summary>As aulas são gravadas?</summary>
-    <p>Sim. Você recebe o link para rever quando quiser.</p>
-  </details>
-  <details>
-    <summary>Posso cancelar quando quiser?</summary>
-    <p>Claro. Sem fidelidade. Basta avisar com 3 dias de antecedência.</p>
-  </details>
-</section>
+    <section class="section" id="pricing">
+      <h2>Planos simples</h2>
+      <div class="pricing">
+        <div class="card price">
+          <span class="tag">Start</span>
+          <h3>R$79/semana</h3>
+          <p>1 encontro/sem • Checklist semanal • Suporte básico</p>
+          <a class="btn" href="https://wa.me/5500000000000" target="_blank" rel="noopener">Começar</a>
+        </div>
+        <div class="card price" style="outline:var(--ring)">
+          <span class="tag">Mais popular</span>
+          <h3>R$129/semana</h3>
+          <p>2 encontros/sem • Feedback detalhado • Suporte prioritário</p>
+          <a class="btn" href="https://wa.me/5500000000000" target="_blank" rel="noopener">Quero este</a>
+        </div>
+        <div class="card price">
+          <span class="tag">Intensivo</span>
+          <h3>R$199/semana</h3>
+          <p>3 encontros/sem • Preparação para provas/entrevistas</p>
+          <a class="btn" href="https://wa.me/5500000000000" target="_blank" rel="noopener">Aplicar</a>
+        </div>
+      </div>
+    </section>
 
-  </main>  <footer>
+    <section class="section faq" id="faq">
+      <h2>Dúvidas frequentes</h2>
+      <details>
+        <summary>Como funciona o teste grátis?</summary>
+        <p>Você agenda 15 minutos para avaliar nível, objetivos e calendário. Se curtir, seguimos com um plano.</p>
+      </details>
+      <details>
+        <summary>As aulas são gravadas?</summary>
+        <p>Sim. Você recebe o link para rever quando quiser.</p>
+      </details>
+      <details>
+        <summary>Posso cancelar quando quiser?</summary>
+        <p>Claro. Sem fidelidade. Basta avisar com 3 dias de antecedência.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
     <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:14px; flex-wrap:wrap">
       <small>© <span id="y"></span> FluentX Idiomas</small>
       <small><a href="#">Política de Privacidade</a> • <a href="#">Termos</a></small>
     </div>
-  </footer>  <script>
+  </footer>
+
+  <script>
     document.getElementById('y').textContent = new Date().getFullYear();
-  </script></body>
+  </script>
+</body>
 </html>
